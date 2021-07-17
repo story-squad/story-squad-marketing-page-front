@@ -1,5 +1,5 @@
 /* default is  320px*/
-.container {
+.containerOne {
   background-color: #e6f9ff;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ img {
   align-items: center;
 }
 
-p {
+.textAndButton p {
   font-family: "Lato";
   font-size: 0.8rem;
   font-style: normal;
@@ -25,7 +25,7 @@ p {
   padding: 1rem;
 }
 
-button {
+.textAndButton button {
   margin-top: 0.5rem;
   width: 25%;
   height: 1rem;
@@ -37,7 +37,7 @@ button {
   background: #ff7f34;
   border-radius: 50px;
 }
-button p {
+.textAndButton button p {
   font-family: "Mulish";
   font-size: 0.6rem;
   font-style: normal;
@@ -46,23 +46,63 @@ button p {
   color: #fdfdfd;
 }
 
+.containerTwo {
+  display: flex;
+  align-items: center;
+  padding: 0px 40px 15px 20px;
+  
+}
+
+.containerTwo img{
+width: 7rem;  
+}
+
+.gifAndText h4 {
+  margin: 30px 0px 10px 0px;
+  text-align: left;
+  font-size: .8rem;
+}
+
+.containerTwo p {
+  text-align: left;
+  font-size: .7rem;
+}
+
+
 @media only screen and (min-width: 700px) {
-  .container {
+  .containerOne {
     justify-content: space-evenly;
   }
-  img {
+  .containerOne img {
     width: 100%;
   }
-  p {
+  .containerOne p {
     width: 50vw;
     font-size: 2rem;
   }
-  button {
+  .containerOne button {
     width: 400px;
     height: 60px;
   }
-  button p {
+  .containerOne button p {
     font-size: 1rem;
   }
+
+  .containerTwo {
+    justify-content: space-evenly;
+  }
+  .containerTwo img {
+    width: 100%;
+  }
+
+  .gifAndText p  {
+    width: 50vw;
+    font-size: 1rem;
+  }
+  .gifAndText h4 {
+    font-size: 1rem;
+  }
+
+
 }
 
