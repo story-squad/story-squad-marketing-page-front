@@ -10,9 +10,9 @@ function Header() {
       </Logo>
       <NavItems>
         <a>Mission</a>
-        <Products>
+        {/* <Products>
         <Dropdown/>
-        </Products>
+        </Products> */}
         <a>About Us</a>
         <a>Contact</a>
         <button>Sign Up</button>
