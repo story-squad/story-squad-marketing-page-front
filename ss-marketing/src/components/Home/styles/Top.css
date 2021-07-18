@@ -36,6 +36,7 @@ img {
   padding: 12px 40px;
   background: #ff7f34;
   border-radius: 50px;
+  border: none;
 }
 .textAndButton button p {
   font-family: "Mulish";
@@ -65,6 +66,50 @@ img {
 .containerTwo p {
   text-align: left;
   font-size: 0.7rem;
+}
+
+.containerThree {
+  height: 150px;
+  background-image: url("../imgs/background-screentime.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.textAndButton2 {
+  margin-top: 20px;
+  width: 67vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textAndButton2 p {
+  width: inherit;
+  font-size: 0.4rem;
+  /* padding: 10px; */
+}
+
+.textAndButton2 button {
+  margin-top: 0.5rem;
+  height: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+  background: #ff7f34;
+  border-radius: 50px;
+  font-family: "Mulish";
+  font-size: 0.5rem;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  border: none;
 }
 
 @media only screen and (min-width: 700px) {
@@ -99,4 +144,29 @@ img {
   .gifAndText h4 {
     font-size: 1rem;
   }
+  .containerThree {
+    height: 700px;
+    
+    justify-content: center;
+  }
+  
+  .textAndButton2 {
+    height: 200px;
+    justify-content: space-between;
+  }
+  
+  .textAndButton2 p {
+    font-size: 1.3rem;
+  }
+  
+  .textAndButton2 button {
+    padding: 12px 40px;
+    width: 146px;
+    height: 48px;
+    background: #FF7F34;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  
 }
+

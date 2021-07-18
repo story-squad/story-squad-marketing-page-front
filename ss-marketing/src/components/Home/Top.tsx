@@ -24,12 +24,22 @@ function Top() {
         <div>
           <img src={Thinking} alt="thought bubble" />
         </div>
-        <div className='gifAndText'>
+        <div className="gifAndText">
           <h4>WHEN WAS THE LAST TIME...</h4>
           <p>
             Your child laughed with friends as they competed to see who could
             write a funnier pirate story?
           </p>
+        </div>
+      </div>
+      <div className="containerThree">
+        <div className="textAndButton2">
+          <p>
+            In a world of infinite screentime, Story Squad set out to inspire
+            kiddos to tap into their natural creativity armed with a pencil,
+            paper, and their brilliant minds.
+          </p>
+          <button>Sign Up</button>
         </div>
       </div>
     </div>
