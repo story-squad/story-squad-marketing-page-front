@@ -1,0 +1,79 @@
+.nav {
+  background-color: #0089ed;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+  font-family: "Boogaloo";
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.0703846px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+}
+
+.links {
+  display: none;
+}
+@media only screen and (min-width: 700px) {
+  .nav {
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    margin-left: 20px;
+    font-family: "Boogaloo";
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.0703846px;
+    text-transform: uppercase;
+    color: #fdfdfd;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    list-style-type: none;
+  }
+
+  nav {
+    display: flex;
+  }
+  li {
+    position: static;
+    width: 97px;
+    height: 24px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .navButton {
+    width: 138px;
+    background: #ff7f34;
+    border: 2px solid #e5e5e5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    position: static;
+    left: calc(50% - 58px / 2);
+    top: calc(50% - 24px / 2);
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fdfdfd;
+  }
+}
