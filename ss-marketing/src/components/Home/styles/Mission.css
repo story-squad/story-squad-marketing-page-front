@@ -1,3 +1,94 @@
-/*   background-image: url("../imgs/background-screentime.png");
+.missionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.missionContainer h2 {
+  font-family: "Boogaloo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4b4c4d;
+}
+.missionContainer p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  color: #282829;
+}
+
+.mission {
+  width: 80vw;
+  height: 75px;
+  background-image: url("../imgs/mission.png");
+  background-size: 80vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mission h2 {
+  width: 80vw;
+}
+.mission p {
+    margin-bottom: 10px;
+}
+.demographic {
+  width: 90vw;
+  height: 83px;
+  background-image: url("../imgs/demographic.png");
+  background-size: 90vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.demographic p {
+    margin-bottom: 10px;
+}
+
+.different {
+  width: 100vw;
+  height: 120px;
+  background-image: url("../imgs/different.png");
   background-size: 100vw;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.different p {
+    margin-top: -20px;
+}
+
+.innerMissionContainerMobile {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerMissionContainer p {
+    font-size: 8px;
+}
+
+.innerMissionContainerDesktop {
+    display: none;
+}
+
+.differentContent {
+    height: 200px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
