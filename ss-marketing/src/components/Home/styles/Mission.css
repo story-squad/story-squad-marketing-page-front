@@ -1,35 +1,41 @@
-/* //test */
-
-.container_row{
-    display: grid;
-  }
-  .layer1 {
-width: 80vw;
-  }
-  
-  .layer1, .layer2{
-    grid-column: 1;
-    grid-row: 1;
-  }
-  
-  .layer1 span{
-    color: #fff;
-    background: #000cf6;
-  }
-  
-  .layer2{
-    
-  }
-
-
-
-.missionContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.grid-div-mission {
+  display: grid;
+  place-items: center;
+  width: 95vw;
+  height: 80px;
 }
 
-.missionContainer h2 {
+.missionLayer1 {
+  width: 80vw;
+}
+
+.missionLayer2 {
+  width: 100vw;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.missionLayer2 h1 {
+  margin-top: 40px;
+}
+.missionLayer1,
+.missionLayer2 {
+  grid-column: 1;
+  grid-row: 1;
+  height: 17vh;
+}
+
+.missionBlock {
+  width: 100vw;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionLayer2 h1 {
+  width: 70%;
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
@@ -38,102 +44,105 @@ width: 80vw;
   text-transform: uppercase;
   color: #4b4c4d;
 }
-.missionContainer p {
+
+.missionLayer2 p {
+  width: 80%;
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 8px;
   text-align: center;
   color: #282829;
 }
 
-.mission {
-  width: 80vw;
-  /* min-height: 75px; */
-  /* background-image: url("../imgs/mission.png");
-  background-size: cover;
-  overflow:auto; 
-  background-repeat: no-repeat; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.first {
+  height: 80px;
 }
 
-.mission h2 {
-  width: 80vw;
-}
-.mission p {
-    margin-bottom: 10px;
-}
-.demographic {
+.second {
+  height: 80px;
   width: 90vw;
-  height: 83px;
-  background-image: url("../imgs/demographic.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+}
+.third {
+  height: 80px;
+  width: 95vw;
 }
 
-.demographic p {
-    margin-bottom: 10px;
+.missionDesktop {
+  display: none;
 }
 
-.different {
-  width: 100vw;
-  height: 120px;
-  background-image: url("../imgs/different.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.different p {
-    margin-top: -20px;
-}
+@media only screen and (min-width: 700px) {
+  .grid-div-mission {
+    height: 265px;
+  }
+  .first {
+    width: 866px;
+    height: 250px;
+  }
 
-.innerMissionContainerMobile {
-    width: 100vw;
+  .second {
+    width: 981.49px;
+    height: 280px;
+  }
+  .third {
+    width: 1440px;
+    height: 521px;
+    margin-top: 25px;
+  }
+
+  .missionLayer2 h1 {
+    font-size: 48px;
+  }
+
+  .missionLayer2 p {
+    font-size: 22px;
+  }
+  .missionMobile {
+    display: none;
+  }
+  .missionDesktop {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    width: 80vw;
+  }
+  .missionDesktop p {
+    position: static;
+    width: 324px;
+    height: 150px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #282829;
+  }
+
+  .missionDesktop img {
+    margin: 20px;
+  }
+  .differentOne {
+    grid-column: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.innerMissionContainer p {
-    font-size: 8px;
-}
-
-.innerMissionContainerDesktop {
-    display: none;
-}
-
-.differentContent {
-    height: 200px;
-    width: 50vw;
+  .differentTwo {
+    grid-column: 2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-}
+  }
 
-@media only screen and (min-width: 700px) {
-    /* .mission {
-
-        height: 344px;
-        
-      }
-
-      .demographic {
-
-        height: 384px;
-       
-      }
-      .different {
-        
-        height: 120px;
-        
-      } */
+  .differentThree {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
