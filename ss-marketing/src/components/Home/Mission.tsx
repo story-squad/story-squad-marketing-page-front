@@ -2,13 +2,17 @@ import "./styles/Mission.css";
 import Brain from "./imgs/emoji-brain.png"
 import Art from "./imgs/emoji-art.png"
 import Trophy from "./imgs/emoji-trophy.png"
+import test from './imgs/mission.png'
 
 function Mission() {
   return (
     <div className="missionContainer">
-      <div className="mission">
+        <div className='container_row'>
+        <img className="layer1" src={test} alt="test" />
+      <div className="mission layer2">
         <h2>Our Mission</h2>
         <p>Human connection through creative expression.</p>
+      </div>
       </div>
       <div className="demographic">
         <h2>Who's it for?</h2>
@@ -16,7 +20,7 @@ function Mission() {
       </div>
       <div className="different">
         <h2>How are we different?</h2>
-        <p>At Story Squad we are creting something unique</p>
+        <p>At Story Squad we are creating something unique</p>
         <div className="innerMissionContainerDesktop">
           <div className="differentContent">
             <img src={Brain} alt="brain" />
