@@ -1,0 +1,56 @@
+.aboutUsTop, .aboutUsBottom {
+    padding: 30px 30px 0px 30px;
+}
+
+.aboutUsTop h1 {
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+
+text-transform: uppercase;
+color: #282829;
+}
+
+.aboutUsTop p {
+font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+color: #282829;
+}
+
+.aboutUsBottom h1 {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 38px;
+color: #282829;
+}
+
+.aboutUsBottom p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    color: #282829;
+    }
+.founder {
+display: flex;
+justify-content: space-between;
+}
+.founderTextContent {
+    width: 55vw;
+}
+
+    .founder img {
+width: 30%;
+height: 20%;
+    }
+    .graig {
+        margin-top: 20px;
+    }
+    .darwin {
+        margin-top: 40px;
+    }
