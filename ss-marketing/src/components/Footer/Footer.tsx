@@ -7,7 +7,7 @@ function Footer() {
         <img src={Logo} alt="logo pencil guy" />
         <p>©2021 Story Squad HQ</p>
       </div>
-      <div className="links">
+      <div className="footerLinks">
         <p>Contact</p>
         <p>FAQs</p>
         <p>Privacy</p>

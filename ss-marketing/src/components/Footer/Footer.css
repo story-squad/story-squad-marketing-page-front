@@ -21,12 +21,12 @@ align-items: center;
     height: 24px;
 }
 
-.links {
+.footerLinks {
 display: flex;
 width: 50vw;
 justify-content: space-evenly;
 }
-.links p {
+.footerLinks p {
 font-family: 'Lato';
 font-style: normal;
 font-weight: 600;

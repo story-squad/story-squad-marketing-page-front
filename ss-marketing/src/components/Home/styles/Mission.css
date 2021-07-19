@@ -10,6 +10,7 @@
 }
 
 .missionLayer2 {
+
     margin-top: -50px;
   width: 100vw;
   padding: 0px;
@@ -141,7 +142,7 @@
     height: 280px;
   }
   .third {
-    width: 1440px;
+    width: 100vw;
     height: 521px;
     margin-top: 25px;
   }
@@ -158,8 +159,9 @@
   }
   .missionDesktop {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
   }
   .missionDesktop p {
     position: static;
@@ -202,10 +204,18 @@
   }
 
 .oldSchoolContainer {
+  width: 100vw;
 height: 60vh;
 margin-top: 200px;
 align-items: center;
 justify-content: center;
+}
+.oldSchoolImage {
+    
+  grid-column: 1;
+  grid-row: 1;
+  display: block;
+  width: 100vw;
 }
   .oldSchoolText {
 width: 60vw;

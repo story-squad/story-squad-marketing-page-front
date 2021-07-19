@@ -152,6 +152,7 @@
   }
   
   .textAndButton2 {
+    margin-top: -50px;
     height: 200px;
     justify-content: space-between;
   }
@@ -161,7 +162,8 @@
   }
   
   .textAndButton2 button {
-    padding: 12px 40px;
+
+
     width: 146px;
     height: 48px;
     background: #FF7F34;
