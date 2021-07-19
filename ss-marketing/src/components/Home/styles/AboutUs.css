@@ -77,6 +77,7 @@
   grid-row: 1;
 }
 .flairContainer {
+  margin-top: 15px;
   display: grid;
   width: 100px;
 }
