@@ -9,7 +9,9 @@ function ContactUs() {
         <h1>Contact Us</h1>
           <form>
               <div className='inputs'>
+
             <div className="field">
+                <p>Full Name</p>
               <input
                 type="text"
                 name="name"
@@ -19,6 +21,7 @@ function ContactUs() {
             </div>
 
             <div className="field">
+                <p>Email Address</p>
               <input
                 type="email"
                 name="email"
@@ -28,10 +31,11 @@ function ContactUs() {
             </div>
             </div>
             <div className="field">
+                <p>message</p>
               <textarea
                 className="textarea"
                 name="message"
-                placeholder="What's on your mind?"
+                placeholder="Write your message here."
               ></textarea>
             </div>
 
