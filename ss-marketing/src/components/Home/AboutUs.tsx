@@ -2,7 +2,7 @@ import "./styles/AboutUs.css";
 import Graig from "./imgs/Graig.png";
 import Darwin from "./imgs/Darwin.png";
 import lineBurstOrange from "./imgs/line-burst-orange.png";
-import lineBurstBlue from "./imgs/line-burst-blue.png";
+// import lineBurstBlue from "./imgs/line-burst-blue.png";
 
 function AboutUs() {
   return (

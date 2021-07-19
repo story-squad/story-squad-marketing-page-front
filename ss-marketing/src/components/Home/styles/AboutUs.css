@@ -1,6 +1,7 @@
 .aboutUsContainer {
   background: #f0f7fa;
   padding: 20px 35px 0px 35px;
+  height: 500px;
 }
 
 .aboutUsTop {
@@ -9,6 +10,7 @@
   justify-content: space-evenly;
   height: 200px;
 }
+
 .aboutUsTop h1 {
   font-family: "Boogaloo";
   font-style: normal;
@@ -94,8 +96,8 @@
 
 @media only screen and (min-width: 700px) {
   .aboutUsContainer {
-    height: 1200px;
-    padding: 150px 155px 0px 155px;
+    height: 1500px;
+    padding: 0px 155px 0px 155px;
     display: flex;
     flex-direction: column;
     align-items: center;
