@@ -107,7 +107,7 @@
     justify-content: space-around;
   }
   .input {
-    width: 460px;
+    width: 35vw;
   }
   .buttonContainer {
     display: flex;
