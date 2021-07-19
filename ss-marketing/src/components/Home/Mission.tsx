@@ -5,6 +5,7 @@ import DiffenceImg from "./imgs/different.png";
 import Brain from "./imgs/emoji-brain.png";
 import Art from "./imgs/emoji-art.png";
 import Trophy from "./imgs/emoji-trophy.png";
+import OldSchool from "./imgs/background-oldSchool.png";
 function Mission() {
   return (
     <div className="MissionContainer">
@@ -70,6 +71,19 @@ function Mission() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="oldSchoolContainer">
+        <img className="oldSchoolImage" src={OldSchool} alt="oldschool" />
+        <div className="oldSchoolText">
+          <h1>Old School meets New School</h1>
+          <p>
+            Tools designed to unlock your child’s creative potential Each of our
+            products starts with scribbling down something from your own
+            imagination (the “Story” part) and turning it into a friendly game
+            (the “Squad” part).
+          </p>
+          <button className='oldSchoolJoin'>JOIN THE IMAGINATION REVOLUTION!</button>
         </div>
       </div>
     </div>

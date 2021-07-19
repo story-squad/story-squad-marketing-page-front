@@ -10,6 +10,7 @@
 }
 
 .missionLayer2 {
+    margin-top: -50px;
   width: 100vw;
   padding: 0px;
   display: flex;
@@ -70,6 +71,60 @@
 
 .missionDesktop {
   display: none;
+}
+
+.oldSchoolContainer {
+  display: grid;
+  place-items: center;
+  width: 95vw;
+  height: 80px;
+}
+
+.oldSchoolImage {
+    
+  grid-column: 1;
+  grid-row: 1;
+  display: block;
+  width: 100vw;
+}
+.oldSchoolText {
+  grid-column: 1;
+  grid-row: 1;
+  width: 90vw;
+  margin-top: 50px;
+}
+
+.oldSchoolText h1 {
+  font-family: "Boogaloo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #4b4c4d;
+}
+.oldSchoolText p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  color: #282829;
+}
+.oldSchoolText button {
+  display: flex;
+  padding: 8px;
+  width: 130px;
+  margin-top: 5px;
+  height: 0px;
+  background: #0089ed;
+  border-radius: 50px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fdfdfd;
 }
 
 @media only screen and (min-width: 700px) {
@@ -145,4 +200,29 @@
     justify-content: center;
     align-items: center;
   }
+
+.oldSchoolContainer {
+height: 60vh;
+margin-top: 200px;
+align-items: center;
+justify-content: center;
+}
+  .oldSchoolText {
+width: 60vw;
+  }
+  
+  .oldSchoolText h1 {
+    font-size: 48px;
+  }
+  .oldSchoolText p {
+    font-size: 18px;
+  }
+  .oldSchoolText button {
+    padding: 28px;
+    width: 530px;
+    margin-top: 50px;
+    height: 0px;
+    font-size: 25px;
+  }
+
 }
