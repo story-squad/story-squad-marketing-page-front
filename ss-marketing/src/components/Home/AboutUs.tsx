@@ -1,10 +1,12 @@
 import "./styles/AboutUs.css";
 import Graig from "./imgs/Graig.png";
 import Darwin from "./imgs/Darwin.png";
+import lineBurstOrange from "./imgs/line-burst-orange.png";
+import lineBurstBlue from "./imgs/line-burst-blue.png";
 
 function AboutUs() {
   return (
-    <div>
+    <div className="aboutUsContainer">
       <div className="aboutUsTop">
         <h1>ABOUT US</h1>
         <p>
@@ -12,7 +14,9 @@ function AboutUs() {
           that it is through the exercise of the imagination, grounded in play,
           that children begin to explore the human condition.”
         </p>
-        <p>—Professor Michael Armstrong, Bread Loaf School of English</p>
+        <p className="quote">
+          —Professor Michael Armstrong, Bread Loaf School of English
+        </p>
         <p>
           Kids know how to tell sophisticated and clever and silly and scary and
           whimsical and fantastic and adventurous and heartbreaking stories at a
@@ -26,7 +30,13 @@ function AboutUs() {
       </div>
       <div className="aboutUsBottom">
         <div className="founder">
-          <img className='graig' src={Graig} alt="Founder 1" />
+          <div className="upperFlairCont">
+            <div className="flairContainer">
+              <img className="orangeFlair" src={lineBurstOrange} alt="flair" />
+              <img className="graig" src={Graig} alt="Founder 1" />
+            </div>
+          </div>
+
           <div className="founderTextContent">
             <h1>Graig Peterson, co-founder</h1>
             <p>
@@ -38,7 +48,11 @@ function AboutUs() {
           </div>
         </div>
         <div className="founder">
-          <img className='darwin' src={Darwin} alt="Founder 2" />
+          <div className="upperFlairCont">
+            <div className="flairContainer">
+              <img className="graig" src={Darwin} alt="Founder 1" />
+            </div>
+          </div>
           <div className="founderTextContent">
             <h1>Darwin Johnson, co-founder</h1>
             <p>
@@ -50,7 +64,11 @@ function AboutUs() {
               focus has been at the intersection of technology and social
               responsibility.
             </p>
+
           </div>
+          {/* <div className='blueFlairCont'>
+              <img className="blueFlair" src={lineBurstBlue} alt="flair" />
+            </div> */}
         </div>
       </div>
     </div>
