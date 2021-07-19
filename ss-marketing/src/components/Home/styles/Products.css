@@ -1,0 +1,29 @@
+.productsContainer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productsInner {
+  width: 80vw;
+}
+
+.productText h1 {
+  font-family: "Boogaloo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #282829;
+}
+.productImgDiv img {
+  width: 30%;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .productText h1 {
+        font-size: 48px;
+      }
+
+}
