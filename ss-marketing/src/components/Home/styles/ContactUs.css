@@ -92,3 +92,33 @@
   box-sizing: border-box;
   border-radius: 8px;
 }
+
+@media only screen and (min-width: 700px) {
+  .contactContainer {
+    padding: 35px 200px 0px 200px;
+    height: 30vh;
+  }
+  .contactContainer h1 {
+    font-size: 48px;
+  }
+
+  .contactUsFormContainer .inputs {
+    display: flex;
+    justify-content: space-around;
+  }
+  .input {
+    width: 460px;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+  }
+  .contactUsFormContainer button {
+    width: 50%;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+}
