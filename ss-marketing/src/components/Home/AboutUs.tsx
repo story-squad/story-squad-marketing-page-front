@@ -8,7 +8,7 @@ function AboutUs() {
   return (
     <div className="aboutUsContainer">
       <div className="aboutUsTop">
-        <h1>ABOUT US</h1>
+        <h3>ABOUT US</h3>
         <p>
           “The imagination is central to life and to learning at every age and
           that it is through the exercise of the imagination, grounded in play,
@@ -38,7 +38,7 @@ function AboutUs() {
           </div>
 
           <div className="founderTextContent">
-            <h1>Graig Peterson, co-founder</h1>
+            <h3>Graig Peterson, co-founder</h3>
             <p>
               Graig is a former classroom teacher, management consultant and
               PADI Divemaster with an AB from Dartmouth and an MA in English
@@ -54,7 +54,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="founderTextContent">
-            <h1>Darwin Johnson, co-founder</h1>
+            <h3>Darwin Johnson, co-founder</h3>
             <p>
               Darwin is a Graduate of Lambda School’s inaugural Data Science
               Cohort and was Section Lead for its 3rd DS Cohort. He has over 20

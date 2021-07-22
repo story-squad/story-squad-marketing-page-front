@@ -8,7 +8,7 @@
   width: 80vw;
 }
 
-.productText h1 {
+.productText h3 {
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
@@ -22,7 +22,7 @@
 
 @media only screen and (min-width: 700px) {
 
-    .productText h1 {
+    .productText h3 {
         font-size: 48px;
       }
 

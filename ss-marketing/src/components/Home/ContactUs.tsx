@@ -4,7 +4,7 @@ function ContactUs() {
   return (
     <div className="contactContainer">
       <div className="contactUsFormContainer">
-        <h1>Contact Us</h1>
+        <h3>Contact Us</h3>
         <form>
           <div className="inputs">
             <div className="field">

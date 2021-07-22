@@ -9,11 +9,11 @@
   justify-content: center;
   align-items: center;
 }
-.missionContentContainerMobile {
-  display: grid;
-  justify-content: center;
-  align-items: center;
+
+.missionContentContainerDesktop {
+  display: none;
 }
+
 .missionContentContainer img {
   grid-column: 1;
   grid-row: 1;
@@ -24,15 +24,10 @@
 .two {
   width: 90vw;
 }
-.threeMobile {
+.three {
   width: 100vw;
 }
-.threeDesktop {
-  display: none;
-}
-.missionTextAndImgDesktop {
-  display: none;
-}
+
 .missionTextAndImg {
   grid-column: 1;
   grid-row: 1;
@@ -44,7 +39,7 @@
   height: 25%;
 }
 
-.missionTextAndImg h1 {
+.missionTextAndImg h3 {
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
@@ -88,9 +83,6 @@
   text-align: center;
   color: #282829;
 }
-.missionDifferencesDesktop {
-  display: none;
-}
 
 .oldSchoolContainer {
   display: grid;
@@ -112,7 +104,7 @@
   margin-top: 30px;
 }
 
-.oldSchoolText h1 {
+.oldSchoolText h3 {
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
@@ -146,80 +138,94 @@
 }
 
 @media only screen and (min-width: 700px) {
-  .missionContentContainerMobile {
+  .missionHide {
     display: none;
   }
-  .missionTextAndImg {
-    padding: 0% 16%;
-    height: 25%;
+  .missionMobile {
+    display: none;
+  }
+  .missionContentContainerDesktopTop {
+    display: grid;
   }
 
-  .missionTextAndImg h1 {
+  .missionContentContainerDesktop {
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    border: 1px solid green;
+  }
+
+  .missionContentContainerDesktop h3 {
+    font-family: "Boogaloo";
+    font-style: normal;
+    font-weight: normal;
     font-size: 48px;
     line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4b4c4d;
   }
 
-  .missionTextAndImg p {
-    font-family: "Lato";
-    font-size: 22px;
-    line-height: 36px;
+  .missionContentContainerDesktop p {
+font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+color: #282829;
   }
 
-  .one {
-    width: 80vw;
-    height: 40vh;
+  .missionTextAndImg h3{
+    font-family: "Boogaloo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4b4c4d;
   }
-  .two {
-    width: 90vw;
-    height: 40vh;
-  }
-  .threeMobile {
-    display: none;
-  }
-  .threeDesktop {
-    display: inline;
-    width: 100vw;
-    height: 70vh;
-  }
-
-  .missionDifferencesMobile {
-    display: none;
-  }
-
-  .differentDesktopContainer {
+  .missionDifferencesDesktop {
     grid-column: 1;
     grid-row: 1;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .missionDifferencesDesktop {
-    display: flex;
     justify-content: space-between;
-    width: 80vw;
+    align-items: center;
+    width: 90vw;
+    border: 2px solid red;
   }
 
   .differentDesktop {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
+    position: static;
+    width: 324px;
+    height: 150px;
+    left: -2px;
+    top: 66.5px;
 
-  .differentDesktop img {
-    width: 10vw;
-  }
-  .differentDesktop p {
+    /* Body/Medium */
+
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
     text-align: center;
+
+    /* Grayscale/gray-8 */
+
     color: #282829;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
   }
 
   .oldSchoolContainer {
@@ -239,7 +245,7 @@
     width: 60vw;
   }
 
-  .oldSchoolText h1 {
+  .oldSchoolText h3 {
     font-size: 48px;
   }
   .oldSchoolText p {

@@ -11,7 +11,7 @@
   height: 200px;
 }
 
-.aboutUsTop h1 {
+.aboutUsTop h3 {
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
@@ -32,7 +32,7 @@
   font-weight: bold;
   color: #282829;
 }
-.aboutUsBottom h1 {
+.aboutUsBottom h3 {
   font-family: "Lato";
   font-style: normal;
   font-weight: 600;
@@ -104,7 +104,7 @@
     align-items: center;
     justify-content: space-evenly;
   }
-  .aboutUsTop h1 {
+  .aboutUsTop h3 {
     font-size: 48px;
     line-height: 38px;
   }
@@ -114,7 +114,7 @@
     line-height: 36px;
   }
 
-  .aboutUsBottom h1 {
+  .aboutUsBottom h3 {
     font-size: 48px;
     line-height: 38px;
   }
