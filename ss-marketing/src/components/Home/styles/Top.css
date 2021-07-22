@@ -70,7 +70,6 @@
 
 .containerThree {
   display: grid;
-  justify-content: center;
   align-items: center;
 }
 
@@ -86,6 +85,7 @@
   padding: 0% 16%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: 25%;
 }
@@ -96,10 +96,9 @@
 }
 
 .textAndButton2 button {
-  margin-top: 0.7rem;
+  margin-top: 0.8rem;
   height: 0.8rem;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 40px;
@@ -112,10 +111,6 @@
   text-transform: uppercase;
   color: #fdfdfd;
   border: none;
-}
-
-@media only screen and (min-width: 700px) {
-
 }
 
 
@@ -151,72 +146,21 @@
   .gifAndText h4 {
     font-size: 1rem;
   }
-  .containerThree {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .containerThree img {
-    width: 100vw;
-    grid-column: 1;
-    grid-row: 1;
-  }
   
   .textAndButton2 {
-    grid-column: 1;
-    grid-row: 1;
     padding: 0% 16%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 25%;
-  }
-  
-  .textAndButton2 p {
-    font-size: 0.4rem;
-    padding-left: 2%;
-  }
-  
-  .textAndButton2 button {
-    margin-top: 0.7rem;
-    height: 0.8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 40px;
-    background: #ff7f34;
-    border-radius: 50px;
-    font-family: "Mulish";
-    font-size: 0.5rem;
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fdfdfd;
-    border: none;
-  }
-  /* .containerThree {
-    height: 700px;
-
-    justify-content: center;
-  }
-
-  .textAndButton2 {
-    margin-top: -50px;
-    height: 200px;
     justify-content: space-between;
+    height: 30%;
   }
-
+  
   .textAndButton2 p {
-    font-size: 1.3rem;
+    font-size: 18px;
+    padding: 2%;
   }
-
+  
   .textAndButton2 button {
     width: 146px;
     height: 48px;
-    background: #ff7f34;
-    border-radius: 50px;
     font-size: 16px;
-  } */
+  }
 }
