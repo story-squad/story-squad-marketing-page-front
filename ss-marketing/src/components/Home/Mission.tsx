@@ -9,36 +9,33 @@ import OldSchool from "./imgs/background-oldSchool.png";
 function Mission() {
   return (
     <div className="MissionContainer">
-      <div className="missionBlock">
-        <div className="grid-div-mission">
-          <img className="missionLayer1 first" src={MissionImg} alt="first" />
-
-          <div className="missionLayer2">
-            <h1>Our Mission</h1>
-            <p>Human connection through creative expression.</p>
-          </div>
+      <div className="missionContentContainer">
+        <img className="one" src={MissionImg} alt="hero_pencil" />
+        <div className="missionTextAndImg">
+          <h1>Our Mission</h1>
+          <p>Human connection through creative expression.</p>
         </div>
       </div>
 
-      <div className="missionBlock">
-        <div className="grid-div-mission">
-          <img
-            className="missionLayer1 second"
-            src={DemographicImg}
-            alt="first"
-          />
-
-          <div className="missionLayer2">
-            <h1>WHO’S IT FOR?</h1>
-            <p>8-12 year olds & adults young at heart!</p>
-          </div>
+      <div className="missionContentContainer">
+        <img className="two" src={DemographicImg} alt="hero_pencil" />
+        <div className="missionTextAndImg">
+          <h1>WHO’S IT FOR?</h1>
+          <p>8-12 year olds & adults young at heart!</p>
         </div>
       </div>
 
-      <div className="missionBlock">
+      <div className="missionContentContainer">
+        <img className="three" src={DiffenceImg} alt="hero_pencil" />
+        <div className="missionTextAndImg">
+          <h1>HOW ARE WE DIFFERENT?</h1>
+          <p className="missionMobile">Achieving unique things everyday</p>
+        </div>
+      </div>
+
+      {/* <div className="missionBlock">
         <div className="grid-div-mission">
           <img className="missionLayer1 third" src={DiffenceImg} alt="first" />
-
           <div className="missionLayer2">
             <h1>HOW ARE WE DIFFERENT?</h1>
             <p className="missionMobile">Achieving unique things everyday</p>
@@ -72,7 +69,7 @@ function Mission() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="oldSchoolContainer">
         <img className="oldSchoolImage" src={OldSchool} alt="oldschool" />
         <div className="oldSchoolText">
@@ -83,7 +80,9 @@ function Mission() {
             imagination (the “Story” part) and turning it into a friendly game
             (the “Squad” part).
           </p>
-          <button className='oldSchoolJoin'>JOIN THE IMAGINATION REVOLUTION!</button>
+          <button className="oldSchoolJoin">
+            JOIN THE IMAGINATION REVOLUTION!
+          </button>
         </div>
       </div>
     </div>

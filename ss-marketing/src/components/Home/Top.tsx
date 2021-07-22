@@ -7,7 +7,7 @@ import "./styles/Top.css";
 function Top() {
   return (
     <div>
-      <div className="containerOne">
+     <div className="containerOne">
         <div>
           <img src={Pencil} alt="hero_pencil" />
         </div>
