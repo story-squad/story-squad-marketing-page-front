@@ -125,10 +125,10 @@ margin: 0px 10px;
 
   .contactUsFormContainer .inputs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .input {
-    width: 35vw;
+    width: 30vw;
   }
   .buttonContainer {
     display: flex;
