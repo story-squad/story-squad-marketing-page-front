@@ -1,9 +1,19 @@
+.missionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .missionContentContainer {
   display: grid;
   justify-content: center;
   align-items: center;
 }
-
+.missionContentContainerMobile {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 .missionContentContainer img {
   grid-column: 1;
   grid-row: 1;
@@ -14,8 +24,14 @@
 .two {
   width: 90vw;
 }
-.three {
+.threeMobile {
   width: 100vw;
+}
+.threeDesktop {
+  display: none;
+}
+.missionTextAndImgDesktop {
+  display: none;
 }
 .missionTextAndImg {
   grid-column: 1;
@@ -47,8 +63,7 @@
   color: #282829;
 }
 
-
-.missionDifferencesMobile{
+.missionDifferencesMobile {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -73,82 +88,7 @@
   text-align: center;
   color: #282829;
 }
-
-
-
-/* old  */
-.grid-div-mission {
-  display: grid;
-  place-items: center;
-  width: 95vw;
-  height: 80px;
-}
-
-.missionLayer1 {
-  width: 80vw;
-}
-
-.missionLayer2 {
-  margin-top: -50px;
-  width: 100vw;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.missionLayer2 h1 {
-  margin-top: 40px;
-}
-.missionLayer1,
-.missionLayer2 {
-  grid-column: 1;
-  grid-row: 1;
-  height: 17vh;
-}
-
-.missionBlock {
-  width: 100vw;
-  display: block;
-  align-items: center;
-  justify-content: center;
-}
-
-.missionLayer2 h1 {
-  width: 70%;
-  font-family: "Boogaloo";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #4b4c4d;
-}
-
-.missionLayer2 p {
-  width: 80%;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  text-align: center;
-  color: #282829;
-}
-
-.first {
-  height: 80px;
-}
-
-.second {
-  height: 80px;
-  width: 90vw;
-}
-.third {
-  height: 80px;
-  width: 95vw;
-}
-
-.missionDesktop {
+.missionDifferencesDesktop {
   display: none;
 }
 
@@ -206,78 +146,80 @@
 }
 
 @media only screen and (min-width: 700px) {
-  .grid-div-mission {
-    height: 265px;
-  }
-  .first {
-    width: 866px;
-    height: 250px;
-  }
-
-  .second {
-    width: 981.49px;
-    height: 280px;
-  }
-  .third {
-    width: 100vw;
-    height: 521px;
-    margin-top: 25px;
-  }
-
-  .missionLayer2 h1 {
-    font-size: 48px;
-  }
-
-  .missionLayer2 p {
-    font-size: 22px;
-  }
-  .missionMobile {
+  .missionContentContainerMobile {
     display: none;
   }
-  .missionDesktop {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width: 70vw;
+  .missionTextAndImg {
+    padding: 0% 16%;
+    height: 25%;
   }
-  .missionDesktop p {
-    position: static;
-    width: 324px;
-    height: 150px;
+
+  .missionTextAndImg h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .missionTextAndImg p {
+    font-family: "Lato";
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .one {
+    width: 80vw;
+    height: 40vh;
+  }
+  .two {
+    width: 90vw;
+    height: 40vh;
+  }
+  .threeMobile {
+    display: none;
+  }
+  .threeDesktop {
+    display: inline;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .missionDifferencesMobile {
+    display: none;
+  }
+
+  .differentDesktopContainer {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .missionDifferencesDesktop {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+  }
+
+  .differentDesktop {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .differentDesktop img {
+    width: 10vw;
+  }
+  .differentDesktop p {
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 13px;
     text-align: center;
     color: #282829;
-  }
-
-  .missionDesktop img {
-    margin: 20px;
-  }
-  .differentOne {
-    grid-column: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .differentTwo {
-    grid-column: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .differentThree {
-    grid-column: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .oldSchoolContainer {

@@ -25,11 +25,48 @@ function Mission() {
         </div>
       </div>
 
-      <div className="missionContentContainer">
-        <img className="three" src={DiffenceImg} alt="hero_pencil" />
+      <div className="missionContentContainerMobile">
+        <img className="threeMobile" src={DiffenceImg} alt="hero_pencil" />
         <div className="missionTextAndImg">
-          <h1>HOW ARE WE DIFFERENT?</h1>
-          <p className="missionMobile">Achieving unique things everyday</p>
+        <h1>HOW ARE WE DIFFERENT?</h1>
+            <p className="missionMobile">Achieving unique things everyday</p>
+        </div>
+      </div>
+
+      <div className="missionContentContainer">
+        <img className="threeDesktop" src={DiffenceImg} alt="hero_pencil" />
+        <div className="differentDesktopContainer">
+          <div className="missionTextAndImg">
+            <h1>HOW ARE WE DIFFERENT?</h1>
+            <p className="missionMobile">Achieving unique things everyday</p>
+          </div>
+          <div className="missionDifferencesDesktop">
+            <div className="differentDesktop">
+              <img src={Brain} alt="brain" />
+              <p>
+                For fun, kids—whose brains are vulnerable to blasts of
+                dopamine—are bingeing on Fortnite, TikTok or YouTube & these
+                rings, dings & pings keep kids staring zombie-fied in a digital
+                abyss.
+              </p>
+            </div>
+            <div className="differentDesktop">
+              <img src={Art} alt="Art" />
+              <p>
+                Story Squad offers a radical alternative: maximize the time your
+                child spends offline in “creative mode” armed with only
+                loose-leaf sheets of paper and a pencil.
+              </p>
+            </div>
+            <div className="differentDesktop">
+              <img src={Trophy} alt="Trophy" />
+              <p>
+                We re-purpose the reward structure of video games—an activity
+                kids know all too well—to motivate them in their reading,
+                writing & drawing.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
