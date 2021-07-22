@@ -1,6 +1,7 @@
 // import styled from "styled-components";
 import Pencil from "./imgs/hero-pencil.png";
 import Thinking from "./imgs/thinking.gif";
+import Background from "./imgs/background-screentime.png"
 import "./styles/Top.css";
 
 function Top() {
@@ -33,6 +34,7 @@ function Top() {
         </div>
       </div>
       <div className="containerThree">
+        <img src={Background} alt="pencil"/>
         <div className="textAndButton2">
           <p>
             In a world of infinite screentime, Story Squad set out to inspire

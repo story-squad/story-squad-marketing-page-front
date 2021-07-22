@@ -1,6 +1,6 @@
-import AboutUs from "./AboutUs";
+// import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
-import Mission from "./Mission";
+// import Mission from "./Mission";
 import Products from "./Products";
 import Top from "./Top";
 
@@ -9,9 +9,9 @@ function Main() {
     return (
         <div>
 <Top/>
-<Mission/>
+{/* <Mission/> */}
 <Products/>
-<AboutUs/>
+{/* <AboutUs/> */}
 <ContactUs/>
         </div>
     );
