@@ -33,6 +33,33 @@ function Mission() {
         </div>
       </div>
 
+      <div className="missionDifferencesMobile">
+        <div className="differentMobile">
+          <img src={Brain} alt="brain" />
+          <p>
+            For fun, kids—whose brains are vulnerable to blasts of dopamine—are
+            bingeing on Fortnite, TikTok or YouTube & these rings, dings & pings
+            keep kids staring zombie-fied in a digital abyss.
+          </p>
+        </div>
+        <div className="differentMobile">
+          <img src={Art} alt="Art" />
+          <p>
+            Story Squad offers a radical alternative: maximize the time your
+            child spends offline in “creative mode” armed with only loose-leaf
+            sheets of paper and a pencil.
+          </p>
+        </div>
+        <div className="differentMobile">
+          <img src={Trophy} alt="Trophy" />
+          <p>
+            We re-purpose the reward structure of video games—an activity kids
+            know all too well—to motivate them in their reading, writing &
+            drawing.
+          </p>
+        </div>
+      </div>
+
       {/* <div className="missionBlock">
         <div className="grid-div-mission">
           <img className="missionLayer1 third" src={DiffenceImg} alt="first" />

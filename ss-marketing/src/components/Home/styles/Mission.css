@@ -47,6 +47,35 @@
   color: #282829;
 }
 
+
+.missionDifferencesMobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.differentMobile {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.differentMobile img {
+  width: 15vw;
+}
+.differentMobile p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  text-align: center;
+  color: #282829;
+}
+
+
+
 /* old  */
 .grid-div-mission {
   display: grid;
