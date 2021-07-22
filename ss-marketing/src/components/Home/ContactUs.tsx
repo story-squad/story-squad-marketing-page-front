@@ -2,7 +2,7 @@ import "./styles/ContactUs.css";
 
 function ContactUs() {
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
       <div className="contactUsFormContainer">
         <h3>Contact Us</h3>
         <form>

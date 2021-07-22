@@ -6,7 +6,7 @@ import lineBurstOrange from "./imgs/line-burst-orange.png";
 
 function AboutUs() {
   return (
-    <div className="aboutUsContainer">
+    <div className="aboutUsContainer" id="aboutUs">
       <div className="aboutUsTop">
         <h3>ABOUT US</h3>
         <p>

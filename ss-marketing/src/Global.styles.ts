@@ -6,6 +6,6 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0px;
     box-sizing: border-box;
     /* font-family: 'Catamaran', sans-serif; */
-
+    scroll-behavior: smooth;
 }
 `;

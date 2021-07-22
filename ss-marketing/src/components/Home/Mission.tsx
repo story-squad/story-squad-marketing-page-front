@@ -9,7 +9,7 @@ import OldSchool from "./imgs/background-oldSchool.png";
 
 function Mission() {
   return (
-    <div className="MissionContainer">
+    <div className="MissionContainer" id="mission">
       <div className="missionContentContainer">
         <img className="one" src={MissionImg} alt="hero_pencil" />
         <div className="missionTextAndImg">
