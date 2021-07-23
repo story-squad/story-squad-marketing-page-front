@@ -28,6 +28,7 @@ function AboutUs() {
           first place.
         </p>
       </div>
+
       <div className="aboutUsBottom">
         <div className="founder">
           <div className="upperFlairCont">
@@ -47,12 +48,8 @@ function AboutUs() {
             </p>
           </div>
         </div>
+        
         <div className="founder">
-          <div className="upperFlairCont">
-            <div className="flairContainer">
-              <img className="graig" src={Darwin} alt="Founder 1" />
-            </div>
-          </div>
           <div className="founderTextContent">
             <h3>Darwin Johnson, co-founder</h3>
             <p>
@@ -64,11 +61,13 @@ function AboutUs() {
               focus has been at the intersection of technology and social
               responsibility.
             </p>
-
           </div>
-          {/* <div className='blueFlairCont'>
-              <img className="blueFlair" src={lineBurstBlue} alt="flair" />
-            </div> */}
+          <div className="upperFlairCont">
+            <div className="flairContainer">
+              <img className="orangeFlair" src={lineBurstOrange} alt="flair" />
+              <img className="graig" src={Darwin} alt="Founder 1" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

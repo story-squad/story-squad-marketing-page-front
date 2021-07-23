@@ -26,10 +26,13 @@
   }
 
   .logo {
-    margin-left: 20px;
     font-family: "Boogaloo";
-    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
     line-height: 36px;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.0703846px;
     text-transform: uppercase;
     color: #fdfdfd;
@@ -47,12 +50,11 @@
   }
   li {
     position: static;
-    width: 97px;
     height: 24px;
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     text-align: right;
     text-transform: uppercase;
@@ -61,8 +63,7 @@
   a:link {
     text-decoration: none;
   }
-  
-  
+
   a:visited {
     text-decoration: none;
   }
