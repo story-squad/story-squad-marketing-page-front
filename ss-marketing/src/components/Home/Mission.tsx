@@ -64,18 +64,14 @@ function Mission() {
         </div>
       </div>
       {/* DESKTOP */}
-      
-      <div className="missionContentContainerDesktop">
 
-        <div className="missionContentContainerDesktop">
+      <div className="missionContentContainer desktop">
+        <div className='missionDeskText'>
           <img className="three" src={DiffenceImg} alt="hero_pencil" />
           <div className="missionTextAndImg">
-            <h3>HOW ARE WE DIFFERENT?</h3>
-            <p className="missionMobile">Achieving unique things everyday</p>
+            <h3 id="desktopText">HOW ARE WE DIFFERENT?</h3>
           </div>
-        </div>
-
-        <div className="missionDifferencesDesktop">
+          <div className="missionDifferencesDesktop">
           <div className="differentDesktop">
             <img src={Brain} alt="brain" />
             <p>
@@ -102,87 +98,11 @@ function Mission() {
             </p>
           </div>
         </div>
+        </div>
+
+        
       </div>
 
-
-
-
-
-
-      {/* <div className="missionContentContainerDesktop">
-      <div className="differentDesktopContainer">
-        <img className="threeDesktop" src={DiffenceImg} alt="hero_pencil" />
-          <div className="missionTextAndImg">
-            <h3>HOW ARE WE DIFFERENT?</h3>
-            <p className="missionMobile">Achieving unique things everyday</p>
-          </div>
-          <div className="missionDifferencesDesktop">
-            <div className="differentDesktop">
-              <img src={Brain} alt="brain" />
-              <p>
-                For fun, kids—whose brains are vulnerable to blasts of
-                dopamine—are bingeing on Fortnite, TikTok or YouTube & these
-                rings, dings & pings keep kids staring zombie-fied in a digital
-                abyss.
-              </p>
-            </div>
-            <div className="differentDesktop">
-              <img src={Art} alt="Art" />
-              <p>
-                Story Squad offers a radical alternative: maximize the time your
-                child spends offline in “creative mode” armed with only
-                loose-leaf sheets of paper and a pencil.
-              </p>
-            </div>
-            <div className="differentDesktop">
-              <img src={Trophy} alt="Trophy" />
-              <p>
-                We re-purpose the reward structure of video games—an activity
-                kids know all too well—to motivate them in their reading,
-                writing & drawing.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="missionBlock">
-        <div className="grid-div-mission">
-          <img className="missionLayer1 third" src={DiffenceImg} alt="first" />
-          <div className="missionLayer2">
-            <h3>HOW ARE WE DIFFERENT?</h3>
-            <p className="missionMobile">Achieving unique things everyday</p>
-
-            <div className="missionDesktop">
-              <div className="differentOne">
-                <img src={Brain} alt="brain" />
-                <p>
-                  For fun, kids—whose brains are vulnerable to blasts of
-                  dopamine—are bingeing on Fortnite, TikTok or YouTube & these
-                  rings, dings & pings keep kids staring zombie-fied in a
-                  digital abyss.
-                </p>
-              </div>
-              <div className="differentTwo">
-                <img src={Art} alt="Art" />
-                <p>
-                  Story Squad offers a radical alternative: maximize the time
-                  your child spends offline in “creative mode” armed with only
-                  loose-leaf sheets of paper and a pencil.
-                </p>
-              </div>
-              <div className="differentThree">
-                <img src={Trophy} alt="Trophy" />
-                <p>
-                  We re-purpose the reward structure of video games—an activity
-                  kids know all too well—to motivate them in their reading,
-                  writing & drawing.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="oldSchoolContainer">
         <img className="oldSchoolImage" src={OldSchool} alt="oldschool" />
         <div className="oldSchoolText">
