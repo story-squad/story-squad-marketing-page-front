@@ -1,6 +1,5 @@
 /* default is  320px*/
 
-
 .containerOne {
   background-color: #e6f9ff;
   display: flex;
@@ -18,8 +17,8 @@
 }
 
 .textAndButton p {
-  font-family: "Lato";
-  font-size: 0.8rem;
+  font-family: 'Lato';
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0em;
@@ -41,7 +40,7 @@
   border: none;
 }
 .textAndButton button p {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-size: 0.6rem;
   font-style: normal;
   font-weight: bold;
@@ -52,7 +51,8 @@
 .containerTwo {
   display: flex;
   align-items: center;
-  padding: 0px 40px 15px 20px;
+  padding: 1rem 5vw 0;
+  justify-content: center;
 }
 
 .containerTwo img {
@@ -60,24 +60,25 @@
 }
 
 .gifAndText h4 {
+  white-space: nowrap;
   margin: 30px 0px 10px 0px;
   text-align: left;
   font-size: 0.8rem;
   font-family: 'Boogaloo';
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-text-transform: uppercase;
-color: #4B4C4D;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4b4c4d;
 }
 
 .containerTwo p {
-  text-align: left;  
+  text-align: left;
   font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
-color: #282829;
+  font-size: 12px;
+  color: #282829;
 }
 
 .containerThree {
@@ -102,9 +103,15 @@ color: #282829;
   height: 25%;
 }
 
+.textAndButton2 .desktop-only {
+  display: none;
+}
+
 .textAndButton2 p {
-  font-size: 0.4rem;
+  font-size: 14px;
+  line-height: 20px;
   padding-left: 2%;
+  font-family: 'Lato';
 }
 
 .textAndButton2 button {
@@ -116,7 +123,7 @@ color: #282829;
   padding: 12px 40px;
   background: #ff7f34;
   border-radius: 50px;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-size: 0.5rem;
   font-style: normal;
   font-weight: bold;
@@ -124,7 +131,6 @@ color: #282829;
   color: #fdfdfd;
   border: none;
 }
-
 
 @media only screen and (min-width: 700px) {
   .containerOne {
@@ -158,18 +164,22 @@ color: #282829;
   .gifAndText h4 {
     font-size: 36px;
   }
-  
+
   .textAndButton2 {
     padding: 0% 16%;
     justify-content: space-between;
     height: 30%;
   }
-  
+  .textAndButton2 .desktop-only {
+    display: inline;
+  }
+
   .textAndButton2 p {
     font-size: 24px;
+    line-height: 28px;
     padding: 2%;
   }
-  
+
   .textAndButton2 button {
     width: 146px;
     height: 48px;

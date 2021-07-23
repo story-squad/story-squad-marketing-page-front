@@ -1,13 +1,13 @@
 // import styled from "styled-components";
-import Pencil from "./imgs/hero-pencil.png";
-import Thinking from "./imgs/thinking.gif";
-import Background from "./imgs/background-screentime.png"
-import "./styles/Top.css";
+import Pencil from './imgs/hero-pencil.png';
+import Thinking from './imgs/thinking.gif';
+import Background from './imgs/background-screentime.png';
+import './styles/Top.css';
 
 function Top() {
   return (
     <div>
-     <div className="containerOne">
+      <div className="containerOne">
         <div>
           <img src={Pencil} alt="hero_pencil" />
         </div>
@@ -35,14 +35,17 @@ function Top() {
         </div>
       </div>
       <div className="containerThree">
-        <img src={Background} alt="pencil"/>
+        <img src={Background} alt="pencil" />
         <div className="textAndButton2">
           <p>
             In a world of infinite screentime, Story Squad set out to inspire
-            kiddos to tap into their natural creativity armed with a pencil,
-            paper, and their brilliant minds.
+            kiddos to tap into their natural creativity
+            <span className="desktop-only">
+              {" "}armed with a pencil, paper, and their brilliant minds
+            </span>
+            .
           </p>
-                    {/* AWAITING PAGES */}
+          {/* AWAITING PAGES */}
           {/* <button>Sign Up</button> */}
         </div>
       </div>
