@@ -145,7 +145,6 @@
     display: none;
   }
   .missionTextAndImg h3 {
-    
     font-size: 36px;
   }
   #desktopText {
@@ -154,41 +153,32 @@
   .missionTextAndImg p {
     font-size: 22px;
   }
-.three {
-  height: 40vh;
-}
+  .three {
+    height: 40vh;
+  }
   .desktop {
     display: grid;
     justify-content: center;
     align-items: center;
-
   }
-.missionDeskText {
-display: grid;
-}
-.missionDifferencesDesktop {
-  grid-column: 1;
-  grid-row: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-.differentDesktop {
-  margin: 8% 2% 0 2%;
-  width: 20%;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-
-
-
-
+  .missionDeskText {
+    display: grid;
+  }
+  .missionDifferencesDesktop {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .differentDesktop {
+    margin: 8% 2% 0 2%;
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .oldSchoolContainer {
     width: 100vw;
@@ -215,7 +205,8 @@ display: grid;
   .oldSchoolText button {
     padding: 28px;
     width: 40vw;
-    
+    display: flex;
+    justify-content: center;
     height: 0px;
     font-size: 16px;
   }
