@@ -1,16 +1,14 @@
 import Header from "./components/Header/Header";
-import {GlobalStyle} from "./Global.styles";
-import Main from './components/Home/Main'
+import "./components/Home/styles/Global.css";
+import Main from "./components/Home/Main";
 import Footer from "./components/Footer/Footer";
-
 
 function App() {
   return (
     <>
-      <GlobalStyle/>
-        <Header />
-        <Main/>
-        <Footer/>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
