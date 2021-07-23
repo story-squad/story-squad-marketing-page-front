@@ -2,12 +2,13 @@
   background-color: #0089ed;
   width: 100vw;
   height: 10vh;
+  max-height: 80px;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  margin-left: 20px;
+  margin: 0 auto;
   font-family: "Boogaloo";
   font-size: 20px;
   line-height: 36px;
@@ -26,6 +27,8 @@
   }
 
   .logo {
+    margin: unset;
+    margin-left: 20px;
     font-family: "Boogaloo";
     font-style: normal;
     font-weight: normal;

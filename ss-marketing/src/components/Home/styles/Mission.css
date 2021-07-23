@@ -40,20 +40,21 @@
 }
 
 .missionTextAndImg h3 {
-  font-family: "Boogaloo";
+  font-family: 'Boogaloo';
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 26px;
   text-align: center;
   text-transform: uppercase;
   color: #4b4c4d;
+  margin-top: -12px;
 }
 
 .missionTextAndImg p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
+  font-size: 12px;
   text-align: center;
   color: #282829;
 }
@@ -76,10 +77,10 @@
   width: 15vw;
 }
 .differentMobile p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
+  font-size: 12px;
   text-align: center;
   color: #282829;
 }
@@ -105,7 +106,7 @@
 }
 
 .oldSchoolText h3 {
-  font-family: "Boogaloo";
+  font-family: 'Boogaloo';
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -113,10 +114,10 @@
   color: #4b4c4d;
 }
 .oldSchoolText p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
+  font-size: 12px;
   color: #282829;
 }
 .oldSchoolText button {
@@ -127,7 +128,7 @@
   height: 0px;
   background: #0089ed;
   border-radius: 50px;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: bold;
   font-size: 6px;
@@ -200,7 +201,7 @@
     font-size: 36px;
   }
   .oldSchoolText h4 {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
