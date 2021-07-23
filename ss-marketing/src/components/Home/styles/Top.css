@@ -151,10 +151,10 @@ color: #282829;
   }
   .gifAndText p {
     width: 50vw;
-    font-size: 1rem;
+    font-size: 24px;
   }
   .gifAndText h4 {
-    font-size: 1rem;
+    font-size: 36px;
   }
   
   .textAndButton2 {
@@ -164,7 +164,7 @@ color: #282829;
   }
   
   .textAndButton2 p {
-    font-size: 18px;
+    font-size: 24px;
     padding: 2%;
   }
   
