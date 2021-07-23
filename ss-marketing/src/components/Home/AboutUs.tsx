@@ -48,18 +48,17 @@ function AboutUs() {
             </p>
           </div>
         </div>
-        
+
         <div className="founder">
           <div className="founderTextContent">
             <h3>Darwin Johnson, co-founder</h3>
             <p>
-              Darwin is a Graduate of Lambda School’s inaugural Data Science
-              Cohort and was Section Lead for its 3rd DS Cohort. He has over 20
-              years’ experience in the IT consulting space, including three
-              years as IT Director for the Somaly Mam Foundation, an
-              international non-profit fighting modern day slavery. His career
-              focus has been at the intersection of technology and social
-              responsibility.
+              Darwin Johnson is a Graduate of Lambda School’s Data Science
+              Program. He has over 20 years’ experience in the IT consulting
+              space, including three years as IT Director for the Somaly Mam
+              Foundation, an international non-profit fighting modern day
+              slavery. Darwin's career focus has been at the intersection of
+              technology and social responsibility.
             </p>
           </div>
           <div className="upperFlairCont">
