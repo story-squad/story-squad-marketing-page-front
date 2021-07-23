@@ -16,9 +16,10 @@ function Top() {
             Story Squad is the world’s first “creativity arcade” built around
             kids’ original handwritten stories and drawing.
           </p>
-          <button>
+          {/* AWAITING PAGES */}
+          {/* <button>
             <p>Learn More</p>
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="containerTwo">
@@ -41,7 +42,8 @@ function Top() {
             kiddos to tap into their natural creativity armed with a pencil,
             paper, and their brilliant minds.
           </p>
-          <button>Sign Up</button>
+                    {/* AWAITING PAGES */}
+          {/* <button>Sign Up</button> */}
         </div>
       </div>
     </div>

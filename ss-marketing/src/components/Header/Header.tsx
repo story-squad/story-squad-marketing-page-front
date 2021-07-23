@@ -1,3 +1,4 @@
+import Hamburger from "./Hamburger";
 import "./Header.css";
 
 function Header() {
@@ -15,12 +16,14 @@ function Header() {
           <li>
             <a href="#aboutUs">About Us</a>
           </li>
-          <li>
+          {/* AWAITING PAGES */}
+          {/* <li>
             <a href="#contact">Contact</a>
-          </li>
-          <button className="navButton">Sign Up</button>
+          </li> */}
+          {/* <button className="navButton">Sign Up</button> */}
         </ul>
       </nav>
+      <Hamburger/>
     </div>
   );
 }

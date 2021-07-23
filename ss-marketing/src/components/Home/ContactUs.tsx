@@ -1,5 +1,7 @@
 import "./styles/ContactUs.css";
 
+/* AWAITING DECISION ON FUNCTIONALITY */
+
 function ContactUs() {
   return (
     <div className="contactContainer" id="contact">
@@ -35,7 +37,7 @@ function ContactUs() {
               placeholder="Write your message here."
             ></textarea>
           </div>
-          <div className='buttonContainer'>
+          <div className="buttonContainer">
             <button type="submit" className="sendMessage">
               Submit
             </button>

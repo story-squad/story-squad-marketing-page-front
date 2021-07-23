@@ -7,12 +7,13 @@ function Footer() {
         <img src={Logo} alt="logo pencil guy" />
         <p>©2021 Story Squad HQ</p>
       </div>
-      <div className="footerLinks">
+      {/* AWAITING PAGES */}
+      {/* <div className="footerLinks">
         <p>Contact</p>
         <p>FAQs</p>
         <p>Privacy</p>
         <p>Terms</p>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -113,9 +113,10 @@ function Mission() {
             imagination (the “Story” part) and turning it into a friendly game
             (the “Squad” part).
           </p>
-          <button className="oldSchoolJoin">
+                    {/* AWAITING PAGES */}
+          {/* <button className="oldSchoolJoin">
             JOIN THE IMAGINATION REVOLUTION!
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

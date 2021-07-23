@@ -1,5 +1,5 @@
 import AboutUs from "./AboutUs";
-import ContactUs from "./ContactUs";
+// import ContactUs from "./ContactUs";
 import Mission from "./Mission";
 import Products from "./Products";
 import Top from "./Top";
@@ -11,7 +11,8 @@ function Main() {
       <Mission />
       <Products />
       <AboutUs />
-      <ContactUs />
+      {/* AWAITING DECISION ON FUNCTIONALITY*/}
+      {/* <ContactUs /> */}
     </div>
   );
 }
