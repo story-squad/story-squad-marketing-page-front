@@ -4,4 +4,5 @@
     box-sizing: border-box;
     /* font-family: 'Catamaran', sans-serif; */
     scroll-behavior: smooth;
+    /* max-width: 900px; */
 }

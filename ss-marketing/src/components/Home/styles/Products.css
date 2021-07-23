@@ -12,20 +12,30 @@
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 36px;
   text-transform: uppercase;
   color: #282829;
 }
+.productImgDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .productImgDiv img {
-  width: 30%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 700px) {
+  .productText h3 {
+    font-size: 48px;
+  }
 
-    .productText h3 {
-        font-size: 48px;
-      }
-
-
-      
+  .productImgDiv {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .productImgDiv img {
+    width: 30%;
+  }
 }
