@@ -66,54 +66,52 @@ function Mission() {
       {/* DESKTOP */}
 
       <div className="missionContentContainer desktop">
-        <div className='missionDeskText'>
+        <div className="missionDeskText">
           <img className="three" src={DiffenceImg} alt="hero_pencil" />
           <div className="missionTextAndImg">
             <h3 id="desktopText">HOW ARE WE DIFFERENT?</h3>
           </div>
           <div className="missionDifferencesDesktop">
-          <div className="differentDesktop">
-            <img src={Brain} alt="brain" />
-            <p>
-              For fun, kids—whose brains are vulnerable to blasts of
-              dopamine—are bingeing on Fortnite, TikTok or YouTube & these
-              rings, dings & pings keep kids staring zombie-fied in a digital
-              abyss.
-            </p>
-          </div>
-          <div className="differentDesktop">
-            <img src={Art} alt="Art" />
-            <p>
-              Story Squad offers a radical alternative: maximize the time your
-              child spends offline in “creative mode” armed with only loose-leaf
-              sheets of paper and a pencil.
-            </p>
-          </div>
-          <div className="differentDesktop">
-            <img src={Trophy} alt="Trophy" />
-            <p>
-              We re-purpose the reward structure of video games—an activity kids
-              know all too well—to motivate them in their reading, writing &
-              drawing.
-            </p>
+            <div className="differentDesktop">
+              <img src={Brain} alt="brain" />
+              <p>
+                For fun, kids—whose brains are vulnerable to blasts of
+                dopamine—are bingeing on Fortnite, TikTok or YouTube & these
+                rings, dings & pings keep kids staring zombie-fied in a digital
+                abyss.
+              </p>
+            </div>
+            <div className="differentDesktop">
+              <img src={Art} alt="Art" />
+              <p>
+                Story Squad offers a radical alternative: maximize the time your
+                child spends offline in “creative mode” armed with only
+                loose-leaf sheets of paper and a pencil.
+              </p>
+            </div>
+            <div className="differentDesktop">
+              <img src={Trophy} alt="Trophy" />
+              <p>
+                We re-purpose the reward structure of video games—an activity
+                kids know all too well—to motivate them in their reading,
+                writing & drawing.
+              </p>
+            </div>
           </div>
         </div>
-        </div>
-
-        
       </div>
 
       <div className="oldSchoolContainer">
         <img className="oldSchoolImage" src={OldSchool} alt="oldschool" />
         <div className="oldSchoolText">
           <h3>Old School meets New School</h3>
+          <h4>Tools designed to unlock your child’s creative potential.</h4>
           <p>
-            Tools designed to unlock your child’s creative potential Each of our
-            products starts with scribbling down something from your own
-            imagination (the “Story” part) and turning it into a friendly game
-            (the “Squad” part).
+            Each of our products starts with scribbling down something from your
+            own imagination (the “Story” part) and turning it into a friendly
+            game (the “Squad” part).
           </p>
-                    {/* AWAITING PAGES */}
+          {/* AWAITING PAGES */}
           {/* <button className="oldSchoolJoin">
             JOIN THE IMAGINATION REVOLUTION!
           </button> */}

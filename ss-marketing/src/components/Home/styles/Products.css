@@ -27,8 +27,15 @@
 }
 
 @media only screen and (min-width: 700px) {
+  .productsContainer {
+    height: 35vh;
+  }
+  .productsInner {
+    width: 70vw;
+  }
   .productText h3 {
     font-size: 48px;
+    margin-bottom: 3%;
   }
 
   .productImgDiv {

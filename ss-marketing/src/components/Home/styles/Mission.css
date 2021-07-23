@@ -199,8 +199,20 @@
   .oldSchoolText h3 {
     font-size: 36px;
   }
+  .oldSchoolText h4 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #282829;
+  }
   .oldSchoolText p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
     font-size: 22px;
+    line-height: 36px;
   }
   .oldSchoolText button {
     padding: 28px;
