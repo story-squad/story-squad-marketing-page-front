@@ -1,9 +1,9 @@
 .footerContainer {
-  height: 5vh;
+  height: 10vh;
+  max-height: 80px;
   background-color: #006dc7;
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
 }
 .imgAndCopyright {
   display: flex;
@@ -24,7 +24,7 @@
 
 .footerLinks {
   display: flex;
-  width: 50vw;
+  width: 50%;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -47,11 +47,11 @@
   }
 
   .imgAndCopyright img {
-    width: 36px;
-    height: 44px;
+    width: 70px;
+    height: 64px;
   }
   .footerLinks {
-      align-items: center;
+    align-items: center;
   }
 
   .footerLinks p {

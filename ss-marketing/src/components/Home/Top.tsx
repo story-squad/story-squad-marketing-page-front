@@ -6,7 +6,7 @@ import './styles/Top.css';
 
 function Top() {
   return (
-    <div>
+    <div className='parentContainerTop'>
       <div className="containerOne">
         <div>
           <img src={Pencil} alt="hero_pencil" />

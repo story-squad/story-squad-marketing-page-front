@@ -2,7 +2,7 @@ import "./styles/AboutUs.css";
 import Graig from "./imgs/Graig.png";
 import Darwin from "./imgs/Darwin.png";
 import lineBurstOrange from "./imgs/line-burst-orange.png";
-// import lineBurstBlue from "./imgs/line-burst-blue.png";
+import lineBurstBlue from "./imgs/line-burst-blue.png";
 
 function AboutUs() {
   return (
@@ -33,8 +33,8 @@ function AboutUs() {
         <div className="founder">
           <div className="upperFlairCont">
             <div className="flairContainer">
-              <img className="orangeFlair" src={lineBurstOrange} alt="flair" />
               <img className="graig" src={Graig} alt="Founder 1" />
+              <img className="blueFlair" src={lineBurstBlue} alt="flair" />
             </div>
           </div>
 
