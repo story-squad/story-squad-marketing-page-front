@@ -166,8 +166,16 @@
   }
   .gifAndText h4 {
     font-size: 36px;
+    
   }
-
+  .textAndButton h2 {
+    font-family: "Boogaloo";
+    text-align: center;
+    font-size: 3rem;
+  }
+  .textAndButton p {
+    font-size: 1rem;
+  }
   .textAndButton2 {
     padding: 0% 16%;
     justify-content: space-between;
