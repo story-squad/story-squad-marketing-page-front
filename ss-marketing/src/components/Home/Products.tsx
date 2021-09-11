@@ -13,7 +13,7 @@ function Products() {
         <div className="productImgDiv">
           <img src={ProductClash} alt="clash" />
           <img src={ProductClassRoomRumble} alt="classroom rumble" />
-          <img src={Producttriktionary} alt="triktionary" />
+          {/* <img src={Producttriktionary} alt="triktionary" /> */}
         </div>
       </div>
     </div>

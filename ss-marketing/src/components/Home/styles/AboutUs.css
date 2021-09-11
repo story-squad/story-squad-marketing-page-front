@@ -1,22 +1,20 @@
 .aboutUsContainer {
   background: #f0f7fa;
-  padding: 20px 35px 0px 35px;
-  height: 500px;
+  padding: 20px 35px 30px 35px;
 }
 
 .aboutUsTop {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 200px;
 }
 
 .aboutUsTop h3 {
   font-family: "Boogaloo";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 46px;
   color: #282829;
 }
 
@@ -27,6 +25,7 @@
   font-size: 12px;
   margin-bottom: 10px;
   color: #282829;
+  line-height: 20px;
 }
 .aboutUsTop .quote {
   font-style: italic;
@@ -34,8 +33,6 @@
   color: #282829;
 }
 
-.aboutUsBottom {
-}
 .founder {
   display: flex;
   justify-content: space-evenly;
@@ -45,8 +42,8 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 38px;
+  font-size: 20px;
+  line-height: 34px;
   color: #282829;
 }
 
@@ -55,6 +52,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
+  line-height: 20px;
   color: #282829;
 }
 /* GRAIG */
@@ -69,6 +67,15 @@
   grid-row: 1;
   width: 60%;
   margin: 20px;
+  z-index: 999;
+}
+.blueFlair {
+  grid-column: 1;
+  grid-row: 1;
+  width: 50%;
+  margin-top: 5px;
+  transform: rotate(190deg);
+  /* z-index: -1; */
 }
 .orangeFlair {
   grid-column: 1;
@@ -105,12 +112,16 @@
 }
 @media only screen and (min-width: 700px) {
   .aboutUsContainer {
+    padding: 0;
+    width: 100%;
     height: 1500px;
-    padding: 0px 155px 0px 155px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+  .aboutUsTop {
+    width: 70%;
   }
   .aboutUsTop h3 {
     font-size: 48px;
@@ -126,28 +137,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
   }
   .founder {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 90vw;
-
+    width: 70%;
+    gap: 100px;
   }
   .founder img {
-    width: 15vw;
-  }
-
-  .founderTextContent {
+    width: 100%;
   }
 
   .founderTextContent {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 60%;
+    width: 70%;
     height: 300px;
   }
 

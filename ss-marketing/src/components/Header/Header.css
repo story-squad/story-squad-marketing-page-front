@@ -1,6 +1,6 @@
-.nav {
+.navContainer {
   background-color: #0089ed;
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   max-height: 80px;
   display: flex;
@@ -9,12 +9,14 @@
 
 .logo {
   margin: 0 auto;
+  width: 100%;
   font-family: "Boogaloo";
   font-size: 20px;
   line-height: 36px;
   letter-spacing: 0.0703846px;
   text-transform: uppercase;
   color: #fdfdfd;
+  text-align: center;
 }
 
 .links {
@@ -22,7 +24,7 @@
 }
 
 @media only screen and (min-width: 700px) {
-  .nav {
+  .navContainer {
     justify-content: space-evenly;
   }
 
@@ -44,12 +46,14 @@
   .links {
     display: flex;
     justify-content: space-around;
-    width: 60vw;
+    width: 60%;
     list-style-type: none;
   }
 
   nav {
     display: flex;
+    justify-content: center;
+    width: 100%;
   }
   li {
     position: static;
@@ -68,7 +72,7 @@
 
   a:visited {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .navButton {
     width: 138px;
