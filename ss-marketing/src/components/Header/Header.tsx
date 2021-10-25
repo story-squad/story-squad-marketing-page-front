@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="nav">
+    <div className="navContainer">
       <h1 className="logo"> Story Squad</h1>
       <nav>
         <ul className="links">

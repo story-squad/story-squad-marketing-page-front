@@ -14,7 +14,7 @@ function Mission() {
         <img className="one" src={MissionImg} alt="hero_pencil" />
         <div className="missionTextAndImg">
           <h3>Our Mission</h3>
-          <p>Human connection through creative expression.</p>
+          <p>Human connection through creative expression</p>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ function Mission() {
         <img className="two" src={DemographicImg} alt="hero_pencil" />
         <div className="missionTextAndImg">
           <h3>WHO’S IT FOR?</h3>
-          <p>8-12 year olds & adults young at heart!</p>
+          <p>8-14 year olds</p>
         </div>
       </div>
       {/* MOBILE */}
@@ -30,8 +30,7 @@ function Mission() {
         <div className="missionContentContainer">
           <img className="three" src={DiffenceImg} alt="hero_pencil" />
           <div className="missionTextAndImg">
-            <h3>HOW ARE WE DIFFERENT?</h3>
-            <p className="missionMobile">Achieving unique things everyday</p>
+            <h3>3 WAYS WE ARE WE DIFFERENT...</h3>
           </div>
         </div>
 
@@ -39,26 +38,20 @@ function Mission() {
           <div className="differentMobile">
             <img src={Brain} alt="brain" />
             <p>
-              For fun, kids—whose brains are vulnerable to blasts of
-              dopamine—are bingeing on Fortnite, TikTok or YouTube & these
-              rings, dings & pings keep kids staring zombie-fied in a digital
-              abyss.
+           1. Kids’ brains are vulnerable to blasts of dopamine caused by bingeing on video games and social media.
             </p>
           </div>
           <div className="differentMobile">
             <img src={Art} alt="Art" />
             <p>
-              Story Squad offers a radical alternative: maximize the time your
-              child spends offline in “creative mode” armed with only loose-leaf
-              sheets of paper and a pencil.
+           2. Story Squad uses small servings of screentime to drive kids back into offline creative mode.
+
             </p>
           </div>
           <div className="differentMobile">
             <img src={Trophy} alt="Trophy" />
             <p>
-              We re-purpose the reward structure of video games—an activity kids
-              know all too well—to motivate them in their reading, writing &
-              drawing.
+           3. We re-purpose the social reward structure of video games to motivate them in reading & writing.
             </p>
           </div>
         </div>
@@ -69,32 +62,25 @@ function Mission() {
         <div className="missionDeskText">
           <img className="three" src={DiffenceImg} alt="hero_pencil" />
           <div className="missionTextAndImg">
-            <h3 id="desktopText">HOW ARE WE DIFFERENT?</h3>
+            <h3 id="desktopText">3 WAYS WE ARE WE DIFFERENT...</h3>
           </div>
           <div className="missionDifferencesDesktop">
             <div className="differentDesktop">
               <img src={Brain} alt="brain" />
               <p>
-                For fun, kids—whose brains are vulnerable to blasts of
-                dopamine—are bingeing on Fortnite, TikTok or YouTube & these
-                rings, dings & pings keep kids staring zombie-fied in a digital
-                abyss.
+              Kids’ brains are vulnerable to blasts of dopamine caused by bingeing on video games and social media.
               </p>
             </div>
             <div className="differentDesktop">
               <img src={Art} alt="Art" />
               <p>
-                Story Squad offers a radical alternative: maximize the time your
-                child spends offline in “creative mode” armed with only
-                loose-leaf sheets of paper and a pencil.
+              Story Squad uses small servings of screentime to drive kids back into offline creative mode.
               </p>
             </div>
             <div className="differentDesktop">
               <img src={Trophy} alt="Trophy" />
               <p>
-                We re-purpose the reward structure of video games—an activity
-                kids know all too well—to motivate them in their reading,
-                writing & drawing.
+              We re-purpose the social reward structure of video games to motivate them in reading & writing.
               </p>
             </div>
           </div>
@@ -104,12 +90,10 @@ function Mission() {
       <div className="oldSchoolContainer">
         <img className="oldSchoolImage" src={OldSchool} alt="oldschool" />
         <div className="oldSchoolText">
-          <h3>Old School meets New School</h3>
+          <h3>"Old School, meet New School"</h3>
           <h4>Tools designed to unlock your child’s creative potential.</h4>
           <p>
-            Each of our products starts with scribbling down something from your
-            own imagination (the “Story” part) and turning it into a friendly
-            game (the “Squad” part).
+          Based on the <a href="https://norwegianscitechnews.com/2020/10/why-writing-by-hand-makes-kids-smarter/" target="_blank" rel="noopener noreferrer">latest brain research</a>, our handwriting-based app unlocks kids’ creative superpowers by turning story-writing into a daily competition. Language arts learning has never been so much FUN!
           </p>
           {/* AWAITING PAGES */}
           {/* <button className="oldSchoolJoin">
