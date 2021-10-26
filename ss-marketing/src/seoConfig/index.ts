@@ -1,1 +1,0 @@
-export * as seoConfig from './metaData';

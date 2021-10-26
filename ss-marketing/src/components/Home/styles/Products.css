@@ -17,21 +17,21 @@
   color: #282829;
 }
 .productImgDiv {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center;  */
-  width: 100%;
-  object-fit: cover;
+  justify-content: center;
+  align-items: center;
 }
 .productImgDiv img {
   width: 100%;
 }
 
 @media only screen and (min-width: 700px) {
-  
+  .productsContainer {
+    height: 35vh;
+  }
   .productsInner {
-    width: 70%;
+    width: 70vw;
   }
   .productText h3 {
     font-size: 48px;
@@ -39,10 +39,8 @@
   }
 
   .productImgDiv {
-     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
   }
   .productImgDiv img {
     width: 30%;

@@ -17,17 +17,15 @@
 .missionContentContainer img {
   grid-column: 1;
   grid-row: 1;
-  margin-left: auto;
-  margin-right: auto;
 }
 .one {
-  width: 80%;
+  width: 80vw;
 }
 .two {
-  width: 90%;
+  width: 90vw;
 }
 .three {
-  width: 100%;
+  width: 100vw;
 }
 
 .missionTextAndImg {
@@ -42,7 +40,7 @@
 }
 
 .missionTextAndImg h3 {
-  font-family: "Boogaloo";
+  font-family: 'Boogaloo';
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -53,7 +51,7 @@
 }
 
 .missionTextAndImg p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -68,20 +66,18 @@
   align-items: center;
 }
 .differentMobile {
-  background-color: rgba(255, 216, 84, 0.3);
-  border-radius: 50%;
   width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
 }
 .differentMobile img {
   width: 15vw;
 }
 .differentMobile p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -92,15 +88,15 @@
 .oldSchoolContainer {
   display: grid;
   place-items: center;
-  width: 100%;
-  height: 25rem;
+  width: 95vw;
+  height: 80px;
 }
 
 .oldSchoolImage {
   grid-column: 1;
   grid-row: 1;
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: 100vw;
 }
 .oldSchoolText {
   grid-column: 1;
@@ -110,30 +106,18 @@
 }
 
 .oldSchoolText h3 {
-  font-family: "Boogaloo";
+  font-family: 'Boogaloo';
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 46px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #4b4c4d;
-  padding-top: 20px;
-}
-.oldSchoolText h4 {
-  padding-bottom: 10px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  color: #282829;
 }
 .oldSchoolText p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 12px;
   color: #282829;
 }
 .oldSchoolText button {
@@ -144,7 +128,7 @@
   height: 0px;
   background: #0089ed;
   border-radius: 50px;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: bold;
   font-size: 6px;
@@ -180,7 +164,6 @@
   }
   .missionDeskText {
     display: grid;
-    justify-content: center;
   }
   .missionDifferencesDesktop {
     grid-column: 1;
@@ -199,7 +182,7 @@
   }
 
   .oldSchoolContainer {
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     align-items: center;
     justify-content: center;
@@ -208,17 +191,17 @@
     grid-column: 1;
     grid-row: 1;
     display: block;
-    width: 100%;
+    width: 100vw;
   }
   .oldSchoolText {
-    width: 70%;
+    width: 70vw;
   }
 
   .oldSchoolText h3 {
     font-size: 36px;
   }
   .oldSchoolText h4 {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;

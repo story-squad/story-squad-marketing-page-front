@@ -1,15 +1,8 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Catamaran', sans-serif; */
+    scroll-behavior: smooth;
+    /* max-width: 900px; */
 }
-
-.appContainer {
-  margin: 0px auto;
-     max-width: 900px;
-}
-
-/* body {
-    background-color: grey;
-} */
